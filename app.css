@@ -1,0 +1,7 @@
+@define-mixin border-1 $color {
+	border: 1px solid $color;
+}
+
+.thing {
+	@mixin border-1 peru;
+}
